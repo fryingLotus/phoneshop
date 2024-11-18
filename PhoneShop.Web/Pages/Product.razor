@@ -1,0 +1,33 @@
+@page "/product"
+@using PhoneShop.Shared
+@using PhoneShop.Web.Services
+
+<h3>Product</h3>
+
+@if (products == null)
+{
+    <p>Loading products...</p>
+}
+else if (products.Count == 0)
+{
+    <p>No products found.</p>
+}
+else
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>@product.Name - @product.Price</li>
+        }
+    </ul>
+}
+
+@code {
+    [Inject] private ProductService ProductService { get; set; }
+    private List<ProductDto> products;
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetProductsAsync();
+    }
+}

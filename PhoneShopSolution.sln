@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.API", "PhoneShop.API\PhoneShop.API.csproj", "{80E0C177-CA7B-419E-917E-E227D5DF57AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Web", "PhoneShop.Web\PhoneShop.Web.csproj", "{D343428C-914A-4EEB-8FAE-09E5752133E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneShop.Shared", "PhoneShop.Shared\PhoneShop.Shared.csproj", "{EB32BCB1-BB18-4F9F-A95C-1B289BBABB3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80E0C177-CA7B-419E-917E-E227D5DF57AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E0C177-CA7B-419E-917E-E227D5DF57AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E0C177-CA7B-419E-917E-E227D5DF57AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E0C177-CA7B-419E-917E-E227D5DF57AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D343428C-914A-4EEB-8FAE-09E5752133E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D343428C-914A-4EEB-8FAE-09E5752133E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D343428C-914A-4EEB-8FAE-09E5752133E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D343428C-914A-4EEB-8FAE-09E5752133E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB32BCB1-BB18-4F9F-A95C-1B289BBABB3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB32BCB1-BB18-4F9F-A95C-1B289BBABB3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB32BCB1-BB18-4F9F-A95C-1B289BBABB3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB32BCB1-BB18-4F9F-A95C-1B289BBABB3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
